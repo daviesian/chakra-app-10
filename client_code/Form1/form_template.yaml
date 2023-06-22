@@ -1,2 +1,47 @@
 layout: {type: 'form:NA7UVUZUYNF5HCMW:BlankPage'}
 is_package: true
+components_by_slot:
+  content:
+  - name: tabs_1
+    properties:
+      tabs:
+      - {id: dhWKAM, title: Success}
+      - {id: MRxVNk, title: Error}
+      - {id: yIHwpx, title: Tab 3}
+      - {id: JsZRNi, title: Tab 4}
+      selected_tab_index: 1
+    type: form:NA7UVUZUYNF5HCMW:Tabs
+    layout_properties: {}
+    components:
+    - name: alert_1
+      properties: {status: success}
+      type: form:NA7UVUZUYNF5HCMW:Alert
+      components:
+      - name: alert_icon_1
+        properties: {}
+        type: form:NA7UVUZUYNF5HCMW:AlertIcon
+      - name: alert_title_1
+        properties: {}
+        type: form:NA7UVUZUYNF5HCMW:AlertTitle
+      - name: alert_description_1
+        properties: {}
+        type: form:NA7UVUZUYNF5HCMW:AlertDescription
+      layout_properties: {tab: dhWKAM}
+    - name: alert_2
+      properties: {status: error}
+      type: form:NA7UVUZUYNF5HCMW:Alert
+      components:
+      - name: alert_icon_2
+        properties: {}
+        type: form:NA7UVUZUYNF5HCMW:AlertIcon
+      - name: alert_title_2
+        properties: {text: Error!}
+        type: form:NA7UVUZUYNF5HCMW:AlertTitle
+      - name: alert_description_2
+        properties: {text: Something went wrong.}
+        type: form:NA7UVUZUYNF5HCMW:AlertDescription
+      layout_properties: {tab: MRxVNk}
+  - name: input_1
+    properties: {value: A value}
+    type: form:NA7UVUZUYNF5HCMW:Input
+    layout_properties: {}
