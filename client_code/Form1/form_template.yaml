@@ -7,7 +7,7 @@ components_by_slot:
       tabs:
       - {id: dhWKAM, title: Success}
       - {id: MRxVNk, title: Error}
-      - {id: yIHwpx, title: Tab 3}
+      - {id: yIHwpx, title: dfgh}
       - {id: JsZRNi, title: Tab 4}
       selected_tab_index: 1
     type: form:NA7UVUZUYNF5HCMW:Tabs
