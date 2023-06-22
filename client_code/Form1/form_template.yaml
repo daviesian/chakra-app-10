@@ -45,3 +45,7 @@ components_by_slot:
     properties: {value: A value}
     type: form:NA7UVUZUYNF5HCMW:Input
     layout_properties: {}
+  - name: switch_1
+    properties: {}
+    type: form:NA7UVUZUYNF5HCMW:Switch
+    layout_properties: {}
