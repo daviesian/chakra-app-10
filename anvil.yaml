@@ -1,6 +1,9 @@
 dependencies:
 - app_id: NA7UVUZUYNF5HCMW
   version: {dev: false}
+- dep_id: dep_ry8gyp9hc6hg
+  version: {dev: false}
+  resolution_hints: {app_id: LRHEIGY2NKWC76RN, name: Faculty, package_name: Faculty}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
