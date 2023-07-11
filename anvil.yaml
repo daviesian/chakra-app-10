@@ -1,6 +1,8 @@
 dependencies:
 - app_id: NA7UVUZUYNF5HCMW
   version: {dev: false}
+- app_id: MDJWNYPNYICVHNKV
+  version: {dev: false}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
@@ -16,3 +18,4 @@ runtime_options:
   server_spec: {base: python310-standard}
 startup_form: Form1
 native_deps: {head_html: ''}
+db_schema: {}
