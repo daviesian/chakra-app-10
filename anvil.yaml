@@ -1,6 +1,9 @@
 dependencies:
 - app_id: NA7UVUZUYNF5HCMW
   version: {dev: false}
+- dep_id: dep_p00qmdxhxg1sldb
+  version: {dev: false}
+  resolution_hints: {app_id: JNRE4D7PFUM5KCMG, name: Material Design 35, package_name: Material_Design_35}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
