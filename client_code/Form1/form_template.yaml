@@ -60,3 +60,22 @@ components_by_slot:
         - {id: TWO, title: Tab 2}
         - {id: THREE, title: Tab 3}
       type: form:NA7UVUZUYNF5HCMW:Tabs
+      components:
+      - name: stat_1
+        properties: {}
+        type: form:NA7UVUZUYNF5HCMW:Stat
+        components:
+        - name: stat_label_1
+          properties: {}
+          type: form:NA7UVUZUYNF5HCMW:StatLabel
+        - name: stat_number_1
+          properties: {}
+          type: form:NA7UVUZUYNF5HCMW:StatNumber
+        - name: stat_help_text_1
+          properties: {}
+          type: form:NA7UVUZUYNF5HCMW:StatHelpText
+          components:
+          - name: stat_arrow_1
+            properties: {type: increase}
+            type: form:NA7UVUZUYNF5HCMW:StatArrow
+        layout_properties: {tab: ONE}
