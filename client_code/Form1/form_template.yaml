@@ -1,51 +1,62 @@
-layout: {type: 'form:NA7UVUZUYNF5HCMW:BlankPage'}
+layout: {type: 'form:NA7UVUZUYNF5HCMW:StandardPage'}
 is_package: true
 components_by_slot:
-  content:
-  - name: tabs_1
-    properties:
-      tabs:
-      - {id: dhWKAM, title: Success}
-      - {id: MRxVNk, title: Error}
-      - {id: yIHwpx, title: dfgh}
-      - {id: JsZRNi, title: Tab 4}
-      selected_tab_index: 1
-    type: form:NA7UVUZUYNF5HCMW:Tabs
+  nav:
+  - type: form:NA7UVUZUYNF5HCMW:IconButton
+    name: icon_button_1
+    properties: {icon: Bell, variant: ghost}
     layout_properties: {}
+  - type: form:NA7UVUZUYNF5HCMW:UserMenu
     components:
-    - name: alert_1
-      properties: {status: success}
-      type: form:NA7UVUZUYNF5HCMW:Alert
-      components:
-      - name: alert_icon_1
-        properties: {}
-        type: form:NA7UVUZUYNF5HCMW:AlertIcon
-      - name: alert_title_1
-        properties: {}
-        type: form:NA7UVUZUYNF5HCMW:AlertTitle
-      - name: alert_description_1
-        properties: {}
-        type: form:NA7UVUZUYNF5HCMW:AlertDescription
-      layout_properties: {tab: dhWKAM}
-    - name: alert_2
-      properties: {status: error}
-      type: form:NA7UVUZUYNF5HCMW:Alert
-      components:
-      - name: alert_icon_2
-        properties: {}
-        type: form:NA7UVUZUYNF5HCMW:AlertIcon
-      - name: alert_title_2
-        properties: {text: Error!}
-        type: form:NA7UVUZUYNF5HCMW:AlertTitle
-      - name: alert_description_2
-        properties: {text: Something went wrong.}
-        type: form:NA7UVUZUYNF5HCMW:AlertDescription
-      layout_properties: {tab: MRxVNk}
-  - name: input_1
-    properties: {value: A value}
-    type: form:NA7UVUZUYNF5HCMW:Input
-    layout_properties: {}
-  - name: switch_1
+    - type: form:NA7UVUZUYNF5HCMW:MenuItem
+      name: menu_item_1
+      properties: {text: Profile}
+    - type: form:NA7UVUZUYNF5HCMW:MenuItem
+      name: menu_item_2
+      properties: {text: Settings}
+    - type: form:NA7UVUZUYNF5HCMW:MenuItem
+      name: menu_item_3
+      properties: {text: Billing}
+    - type: form:NA7UVUZUYNF5HCMW:MenuDivider
+      name: menu_divider_1
+      properties: {}
+    - type: form:NA7UVUZUYNF5HCMW:MenuItem
+      name: menu_item_4
+      properties: {text: Sign Out}
+    name: user_menu_1
     properties: {}
-    type: form:NA7UVUZUYNF5HCMW:Switch
     layout_properties: {}
+  sidebar:
+  - type: form:NA7UVUZUYNF5HCMW:NavLink
+    name: nav_link_1
+    properties: {icon: FiHome, text: Home}
+    layout_properties: {}
+  - type: form:NA7UVUZUYNF5HCMW:NavLink
+    name: nav_link_2
+    properties: {icon: FiTrendingUp, text: Trending}
+    layout_properties: {}
+  - type: form:NA7UVUZUYNF5HCMW:NavLink
+    name: nav_link_3
+    properties: {icon: FiCompass, text: Explore}
+    layout_properties: {}
+  - type: form:NA7UVUZUYNF5HCMW:NavLink
+    name: nav_link_4
+    properties: {text: Favourites}
+    layout_properties: {}
+  - type: form:NA7UVUZUYNF5HCMW:NavLink
+    name: nav_link_5
+    properties: {icon: FiSettings, text: Settings}
+    layout_properties: {}
+  content:
+  - name: card_1
+    properties: {}
+    type: form:NA7UVUZUYNF5HCMW:Card
+    layout_properties: {region: content}
+    components:
+    - name: tabs_1
+      properties:
+        tabs:
+        - {id: ONE, title: Tab 1}
+        - {id: TWO, title: Tab 2}
+        - {id: THREE, title: Tab 3}
+      type: form:NA7UVUZUYNF5HCMW:Tabs

@@ -1,13 +1,3 @@
-allow_embedding: false
-package_name: Chakra_App_1
-name: Chakra App 1
-startup_form: Form1
-native_deps: {head_html: ''}
-runtime_options:
-  version: 3
-  client_version: '3'
-  server_version: python3-sandbox
-  server_spec: {base: python310-standard}
 dependencies:
 - app_id: NA7UVUZUYNF5HCMW
   version: {dev: false}
@@ -15,3 +5,14 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: null
+package_name: Chakra_App_1
+allow_embedding: false
+name: Chakra App 1
+runtime_options:
+  version: 3
+  client_version: '3'
+  server_version: python3-sandbox
+  server_spec: {base: python310-standard}
+startup_form: Form1
+native_deps: {head_html: ''}
